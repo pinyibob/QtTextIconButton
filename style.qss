@@ -1,0 +1,56 @@
+/*put in build dir to work for writer's lazy*/
+#ImgLabel
+{
+	background:white;
+}
+
+#ImgLabel[state = 'press']
+{
+	background:red;
+}
+
+#ImgLabel[state = 'normal']
+{
+	background:white;
+}
+
+#ImgLabel[state = 'enter']
+{
+	background:blue;
+}
+
+#TextLabel
+{
+	color:black;
+}
+
+#TextLabel[state = 'press']
+{
+	color:red;
+}
+
+#TextLabel[state = 'normal']
+{
+	color:black;
+}
+
+#TextLabel[state = 'enter']
+{
+	color:blue;
+}
+
+QPushButton#aBtn
+{
+	border-radius:4px;
+	border:2px solid red;
+}
+
+QPushButton#aBtn:hover
+{
+	border:2px solid blue;
+}
+
+QPushButton#aBtn:pressed
+{
+	border:2px solid yellow;
+}
